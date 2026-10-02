@@ -45,3 +45,27 @@ git push -u origin main
 git push --set-upstream origin main
 clear
 history
+touch a.sh b.js c.py
+ls -ltr
+git add a.sh
+git status
+git init
+git add a.sh
+git status
+git add .
+git status
+git commit -m "my third commit"
+git push
+git remote add origin https://github.com/Mak-123-456/makdemo.git
+git remote -v
+git push -u origin main
+git commit -m "First commit"
+git push -u origin main
+git push -u origin master
+clear
+git branch -M main
+git push -u origin main
+git branch -M main
+git push -u origin main
+git branch -M main
+git push -u origin main
